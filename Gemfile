@@ -14,6 +14,8 @@ gem 'pg', group: :production
 #12 factor for heroku
 gem 'rails_12factor', group: :production
 
+#gem for payment accpetance
+gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 # add twitter bootstrap
 gem 'bootstrap-sass'
 
